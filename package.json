@@ -1,11 +1,19 @@
 {
   "name": "starter-node-angular",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy:prod": "node deploy.js",
+    "bower:build": "./node_modules/bower/bin/bower install"
+  },
   "dependencies": {
-    "express" : "~4.5.1",
-	"mongoose" : "~3.8.0",
-	"body-parser" : "~1.4.2",
-	"method-override" : "~2.0.2"
+    "body-parser": "~1.4.2",
+    "bower": "^1.8.4",
+    "express": "~4.5.1",
+    "method-override": "~2.0.2",
+    "mongoose": "~3.8.0",
+    "node-cmd": "^3.0.0",
+    "node-ssh": "^5.1.1",
+    "npm": "^6.0.0"
   }
 }
-
